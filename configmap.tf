@@ -14,7 +14,7 @@ resource "kubernetes_config_map" "rabbitmq" {
 
         "rabbitmq.conf" = <<EOF
 #            default_vhost = /
-            default_user = ${ var.default_usernane }
+            default_user = ${ var.default_username }
             default_pass = ${ var.default_password }
 
             # default_permissions.configure = .*

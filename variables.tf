@@ -19,7 +19,7 @@ variable "replicas" {
 
 }
 
-variable "default_usernane" {
+variable "default_username" {
 
     type    = string
     default = "rabbitmq"

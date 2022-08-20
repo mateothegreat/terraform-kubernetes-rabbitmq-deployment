@@ -147,7 +147,7 @@ resource "kubernetes_stateful_set" "rabbitmq" {
                     env {
 
                         name  = "RABBITMQ_DEFAULT_USER"
-                        value = var.default_usernane
+                        value = var.default_username
 
                     }
 
