@@ -18,11 +18,9 @@ module "test" {
     #        "cloud.google.com/load-balancer-type" = "Internal"
     #
     #    }
+    default_username = "rabbitmq"
+    default_password = "agaeq14"
 
-    node_selector = {
-
-        role = "infra"
-
-    }
+    node_selector = {}
 
 }
